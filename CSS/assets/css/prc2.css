@@ -1,0 +1,12 @@
+* {
+  text-align: center;
+}
+ul {
+  background-color: lightgray;
+  width: 100px;
+  list-style: none;
+}
+.aktif {
+  background-color: gray;
+  color: white;
+}
