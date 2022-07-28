@@ -1,0 +1,19 @@
+.block-inline{
+ background-color: red;
+ text-align: center;
+}
+.block-inline b{
+ background-color: royalblue;
+}
+
+.block-block{
+ margin-top: 50px;
+background-color: blueviolet;
+ text-align: center;
+}
+.block-block div{
+background-color: rgb(81, 255, 0);
+width: 100px;
+margin: auto;
+
+}
