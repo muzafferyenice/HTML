@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+
+<body>
+ <form action="">
+  <table>
+   <tr>
+    <td>
+     <table>
+      <tr>
+       <td><label for="firstname">Adı</label></td>
+       <td><input type="text" name="firstname" id="firstname" reuired minlength="2" maxlength="30"></td>
+      </tr>
+      <tr>
+       <td><label for="lastname">Soyadı</label></td>
+       <td><input type="text" name="lastname" id="lastname" required minlength="2" ,maxlength="30"></td>
+      </tr>
+      <tr>
+       <td>Cinsiyet</td>
+       <td><input type="radio" name="gender" id="man" required><label for="man">Erkek</label>
+        <input type="radio" name="gender" id="woman"><label for="woman">Kadın</label>
+       </td>
+
+     
+      <tr>
+       <td><label for="state">İlçe</label></td>
+       <td>
+        <select id="state" name="state" required>
+         <option value="" disabled selected>Seçiniz</option>
+         <option value="1">Karşıyaka</option>
+         <option value="2">Bornova</option>
+         <option value="1">Buca</option>
+        </select>
+       </td>
+      </tr>
+   
+       <td><label for="email">Eposta</label></td>
+       <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+       <td><label for="url">Web Sitesi</td>
+       <td><input type="url" id="url" name="url"></td>
+      </tr>
+      <tr>
+       <td><label for="tel">Telefon</label></td>
+       <td><input type="tel" id="tel" name="tel" required placeholder="+90(XXX)XXX XX XX"></td>
+      </tr>
+      <tr>
+       <td></td>
+       <td align ="right"><input type="submit" value="Gönder"></td>
+      </tr>
+     </table>
+    </td>
+    <td>
+     <table>
+      <tr>
+       <td>Hobiler</td>
+       <td><input type="checkbox" name="football" id="football"><label for="football">Futbol</label><br>
+        <input type="checkbox" name="basketball" id="basketball"><label for="basketball">Basketbol</label><br>
+        <input type="checkbox" name="volleyball" id="volleyball"><label for="volleyball">Voleybol</label>
+       </td>
+      </tr>
+      <tr>
+       <td><label for="photo">Profil Fotoğrafı</label></td>
+       <td><input type="file" name="photo" id="photo" required></td>
+      </tr>
+      <tr>
+       <td><label for="birthdate">Doğum Tarihi</label></td>
+       <td><input type="date" name="birthdate" id="birthdate" max="2012-01-01"></td>
+      </tr>
+      <tr>
+       <td><label for="address">Adres</label></td>
+       <td><textarea name="address" id="address" rows="4" colum="20"></textarea></td>
+      </tr>
+      <tr>
+       <td></td>
+       <td></td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </form>
+
+</body>
+
+</html>

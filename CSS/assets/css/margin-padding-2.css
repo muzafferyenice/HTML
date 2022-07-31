@@ -1,33 +1,45 @@
 :root{
- --color1:rgb(168, 0, 247);
- --color2: rgb(255, 17, 255);
-
-
+    --color1: rgb(85, 0, 101);
+    --color2: rgb(238, 238, 238);
 }
+
 
 body{
- padding: 20px;
+    padding:20px
 }
+
 .main-box{
- background-color: var(--color1);
- padding : 20px;
+    background-color: var(--color1);
+    padding: 20px ;
 }
+
 .main-box h2{
- color:  white
+    color: var(--color2)
 }
+
 .main-box .sub-box{
- background-color: rgb(255, 17, 255);
- padding: 20px;
+    background-color: var(--color2);
+    padding: 20px;
 }
 
 .main-box .code-box{
- background-color: rgb(172, 169, 169);
- padding: 10px;
- margin-bottom: 20px;
+    background-color: rgb(212, 212, 212);
+    padding:10px;
+    margin-bottom: 20px;
 }
+
 .main-box button{
- padding: 2px 20px;
- background-color: yellow;
- border: none;
- color: rgb(172, 255, 5);
+    padding: 5px 10px;
+    background-color:  var(--color1);
+    border:none;
+    color: var(--color2);
+}
+
+.main-box a{
+    color: var(--color1);
+}
+
+.main-box a:hover{
+    text-decoration: none;
+    color: green;
 }

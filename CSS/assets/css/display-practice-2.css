@@ -1,0 +1,23 @@
+nav.menu{
+  display: subgrid;
+}
+
+nav.menu ul{
+  list-style: none;
+  margin:0;
+  padding:10px 30px;
+  background-color: aquamarine;
+  display: none;
+
+}
+.btn-menu{
+  background-color: green;
+  border: none;
+  padding: 10px;
+  color: aliceblue;
+  display: block;
+
+}
+nav.menu:hover ul{
+display: inline-block;
+}

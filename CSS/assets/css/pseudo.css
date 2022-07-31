@@ -1,0 +1,64 @@
+a{
+    color: green;
+}
+
+a:visited{
+    color:red;
+}
+
+a:active{
+    background-color: brown;
+    color:aliceblue;
+}
+
+.form-el{
+    background-color: rgb(212, 212, 212);
+}
+
+.form-el:focus{
+    background-color: aqua;
+}
+
+.form-el:checked{
+    outline: 3px solid red;
+}
+
+ul li{
+    background-color: aqua;
+    margin:5px;
+}
+
+ul li:first-child{
+    background-color: rgb(215, 13, 184);
+}
+
+ul li:last-child{
+    background-color: rgb(140, 223, 44);
+}
+
+ul li:nth-child(3){
+    background-color: rgb(140, 121, 14);
+}
+
+/* .article::selection{
+    background-color: greenyellow;
+    color: white;
+} */
+
+/* ul li:last-child::marker{
+    color:rgb(215, 13, 184);
+}
+ */
+ul li:hover::marker{
+    color:rgb(140, 223, 44);
+}
+
+em::before{
+    content: "[";
+    color:red;
+}
+
+em::after{
+    content: "]";
+    color:red;
+}
