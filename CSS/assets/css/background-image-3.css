@@ -1,17 +1,17 @@
 .banner{
- height: 500px;
- background-image: url("../img/car.jpg");
- background-size: cover;
- background-repeat: no-repeat;
- background-position:center center;
- background-attachment: fixed;
+    height: 300px;
+    background-image: url("../img/car.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 
- padding:50px ;
- font-size: 20px;
- color: white;
+    padding:50px;
+    font-size: 20px;
+    color:white;
 
- display: flex;
- align-items: center;
- 
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
 }
