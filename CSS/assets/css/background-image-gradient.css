@@ -1,0 +1,26 @@
+.btn1{
+ background-image: linear-gradient(yellow,violet
+ );
+}
+.btn2{
+ background-image: linear-gradient(to right, yellow,violet
+ );
+}
+
+
+.btn3{
+ background-image: linear-gradient(50deg, yellow,rgb(158, 78, 158)
+ );
+}
+html,body{
+ height: 100%;
+ padding:0;
+ margin: 0;
+}
+body{
+ /* background-image: linear-gradient(30deg,black 25%,red); */
+  background-image: radial-gradient(circle,black 25%,red);
+
+
+  
+}

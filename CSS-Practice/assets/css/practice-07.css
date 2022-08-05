@@ -1,0 +1,33 @@
+body{
+    background-image: url("../img/kitap.png");
+    background-position: center;
+    background-size: cover;
+}
+section.container{
+    width:30%;
+}
+.aylar{
+    background-color: antiquewhite;
+    padding-bottom:1rem;
+}
+.mevsimler{
+    background-color: bisque;
+    padding-bottom:1rem;
+}
+.gunler{
+    background-color: rgba(133, 96, 96, 0.979);
+    padding-bottom: 1rem;
+}
+h1,h2{
+    background-color: aqua;
+    text-align:center;
+    padding:1rem;
+    
+}
+ul,ol{
+    margin-bottom:1rem;
+}
+ul li,ol li{
+    font-size:1.3rem;
+
+}

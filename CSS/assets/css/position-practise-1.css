@@ -1,0 +1,30 @@
+.input-group{
+    background-color: rgb(207, 163, 247);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    border:1px solid rgb(194, 133, 251);
+}
+.input-group input{
+    border:none;
+    background: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 45px;
+    box-sizing: border-box;
+
+}
+
+.input-group a{
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    top:0;
+}

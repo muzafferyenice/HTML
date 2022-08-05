@@ -1,0 +1,91 @@
+:root {
+  --color1: #eeb439;
+  --color2: #602c44;
+  --color3: #d19fb8;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main {
+ /*  padding-left: 50px; */
+ margin-left: 50px;
+}
+
+main header {
+  background-color: var(--color3);
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+main section {
+  padding: 2rem;
+}
+
+nav.left-menu {
+  background-color: var(--color1);
+  width: 250px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left:-200px;
+  transition: left 1s;
+}
+
+nav.left-menu .title {
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color2);
+}
+
+nav.left-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+nav.left-menu a {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  display: block;
+  color: var(--color2);
+  position: relative;
+}
+
+nav.left-menu a:hover {
+  background-color: var(--color3);
+}
+
+nav.left-menu a:hover::before {
+  font: var(--fa-font-solid);
+  content:"\f054";
+  position: absolute;
+  left:1rem;
+}
+
+.switch{
+    display: none;
+}
+
+.switch:checked + .left-menu{
+    left:0;
+}
+
+nav.left-menu label{
+    cursor: pointer;
+    padding: 0 0.3rem;
+    transition: transform 1s;
+}
+
+.switch:checked + .left-menu label{
+    transform: rotate(180deg);
+}

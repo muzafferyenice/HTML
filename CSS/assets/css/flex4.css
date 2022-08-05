@@ -1,0 +1,33 @@
+.container{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+background-color: hotpink;
+/* align-items: center;  flex wrap kullaninca buna gerekyok alltaki lazim*/
+align-content: center;
+height: 80vh;
+}
+
+
+.box{
+    width:100px;
+    height: 20px;
+    background-color: gray;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: yellow;
+}
